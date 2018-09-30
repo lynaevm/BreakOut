@@ -1,0 +1,30 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "Flint",
+			"type":
+			{
+				"type": "block",
+				"name": "minecraft:stone"
+			},
+			"clicktype": "both",
+			"drops":
+			[
+				{
+                    "name": "minecraft:flint",
+                    "chance": 99,
+                    "conditions":
+	                [
+                        
+                        {
+			                "type": "require_item",
+			                "name": "minecraft:stick"
+		                }
+	                ]
+				}
+			]
+			
+		}
+	]
+}
